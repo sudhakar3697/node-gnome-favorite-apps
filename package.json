@@ -1,0 +1,27 @@
+{
+  "name": "gnome-favorite-apps",
+  "version": "1.0.0",
+  "description": "Get, Add, Remove Gnome favorite apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gnome",
+    "gnome-favorites",
+    "gnome-favorite-apps"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudhakar3697/gnome-favorite-apps.git"
+  },
+  "author": "sudhakar3697 <sudax3@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudhakar3697/gnome-favorite-apps/issues"
+  },
+  "homepage": "https://github.com/sudhakar3697/gnome-favorite-apps#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
