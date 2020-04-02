@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/sudhakar3697/gnome-favorite-apps/issues"
   },
-  "homepage": "https://github.com/sudhakar3697/gnome-favorite-apps#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@sudhakar3697"
-  }
+  "homepage": "https://github.com/sudhakar3697/gnome-favorite-apps#readme"
 }
