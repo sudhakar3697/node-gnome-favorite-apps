@@ -20,7 +20,7 @@ class GnomeFavoriteApps {
     }
 
     static async remove(...apps) {
-        const appsToAdd = (await GnomeFavorites.get()).filter(app => !apps.includes(app)).map(app => `'${app}'`);
+        const appsToAdd = (await GnomeFavoriteApps.get()).filter(app => !apps.includes(app)).map(app => `'${app}'`);
         const favs = (await exec(`gsettings set org.gnome.shell favorite-apps "[${appsToAdd.join(', ')}]"`));
         if (favs.stderr)
             throw favs.stderr;
